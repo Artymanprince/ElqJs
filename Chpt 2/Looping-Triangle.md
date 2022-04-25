@@ -21,7 +21,7 @@ console.log(abc.length); // → 3
 ### Solution
 
 ```javascript
-/*It's required that we use the length property of strings*/
+//It's required that we use the length property of strings
 
 for(let hash = "#"; hash.length < 8; hash += "#"){
 	console.log(hash)
