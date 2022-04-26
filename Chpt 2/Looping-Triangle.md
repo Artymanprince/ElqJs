@@ -26,8 +26,11 @@ console.log(abc.length); // → 3
 for(let hash = "#"; hash.length < 8; hash += "#"){
 	console.log(hash)
 }
+```
 
-//Another way to solve the problem?
+Another way to solve the problem?
+
+```javascript
 let hash = "#";
 for(let num = 0; num < 7; num++){
 	console.log(hash);
